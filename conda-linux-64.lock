@@ -152,7 +152,7 @@ https://conda.anaconda.org/conda-forge/linux-64/hdf4-4.2.15-h2a13503_7.conda#bd7
 https://conda.anaconda.org/conda-forge/linux-64/krb5-1.22.2-ha1258a1_0.conda#fb53fb07ce46a575c5d004bbc96032c2
 https://conda.anaconda.org/conda-forge/linux-64/libcrc32c-1.1.2-h9c3ff4c_0.tar.bz2#c965a5aa0d5c1c37ffc62dff36e28400
 https://conda.anaconda.org/conda-forge/linux-64/libfreetype-2.14.3-ha770c72_0.conda#e289f3d17880e44b633ba911d57a321b
-https://conda.anaconda.org/conda-forge/linux-64/libglib-2.88.1-h0d30a3d_1.conda#6016ea5ee9e986bc683879408cc87529
+https://conda.anaconda.org/conda-forge/linux-64/libglib-2.88.1-h0d30a3d_2.conda#17d484ab9c8179c6a6e5b7dbb5065afc
 https://conda.anaconda.org/conda-forge/linux-64/libjxl-0.11.2-h174a0a3_1.conda#850f48943d6b4589800a303f0de6a816
 https://conda.anaconda.org/conda-forge/linux-64/libnghttp2-1.68.1-h877daf1_0.conda#2a45e7f8af083626f009645a6481f12d
 https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.33-pthreads_h94d23a6_0.conda#2d3278b721e40468295ca755c3b84070
@@ -246,7 +246,7 @@ https://conda.anaconda.org/conda-forge/noarch/jmespath-1.0.1-pyhd8ed1ab_1.conda#
 https://conda.anaconda.org/conda-forge/noarch/json5-0.14.0-pyhd8ed1ab_0.conda#1269891272187518a0a75c286f7d0bbf
 https://conda.anaconda.org/conda-forge/noarch/jsonpointer-3.1.1-pyhcf101f3_0.conda#89bf346df77603055d3c8fe5811691e6
 https://conda.anaconda.org/conda-forge/noarch/jupyter-collaboration-ui-2.3.0-pyhcf101f3_0.conda#35db25999bf9261070b153b647e2fd2a
-https://conda.anaconda.org/conda-forge/noarch/jupyter-docprovider-2.3.0-pyhcf101f3_0.conda#a81643d42642d02fc3c3c0a6c2360332
+https://conda.anaconda.org/conda-forge/noarch/jupyter-docprovider-2.4.0-pyhcf101f3_0.conda#d216c2203bafaddef9bc0f072ca7db67
 https://conda.anaconda.org/conda-forge/noarch/jupyter_leaflet-0.20.0-pyhd8ed1ab_0.conda#ddb428366001a2a698f384faf11606ca
 https://conda.anaconda.org/conda-forge/noarch/jupyterlab-favorites-3.5.0-pyhd8ed1ab_0.conda#da353c79d63bec6d32e0090e3cb8acd2
 https://conda.anaconda.org/conda-forge/noarch/jupyterlab-geojson-3.4.0-pyhd8ed1ab_1.conda#52330b4c11577d4eca2405150867aeb7

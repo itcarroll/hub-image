@@ -4584,15 +4584,15 @@ package:
   category: main
   optional: false
 - name: jupyter-docprovider
-  version: 2.3.0
+  version: 2.4.0
   manager: conda
   platform: linux-64
   dependencies:
     python: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/jupyter-docprovider-2.3.0-pyhcf101f3_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/jupyter-docprovider-2.4.0-pyhcf101f3_0.conda
   hash:
-    md5: a81643d42642d02fc3c3c0a6c2360332
-    sha256: 5ba912e1f1ac1ab31bbf2f4610d0332d77ce257ccbe2ba7a77f0fc3e91f2b94a
+    md5: d216c2203bafaddef9bc0f072ca7db67
+    sha256: 5092582012d55a0cb041bfa9e3bcf01e9fa1cb223944c35f1557ae70011d09f3
   category: main
   optional: false
 - name: jupyter-lsp
@@ -6210,10 +6210,10 @@ package:
     libiconv: '>=1.18,<2.0a0'
     libzlib: '>=1.3.2,<2.0a0'
     pcre2: '>=10.47,<10.48.0a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.88.1-h0d30a3d_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.88.1-h0d30a3d_2.conda
   hash:
-    md5: 6016ea5ee9e986bc683879408cc87529
-    sha256: a0899efbae2a6a9102c796c0b11ac371a3190da5afa28512eeb2879c65d1419c
+    md5: 17d484ab9c8179c6a6e5b7dbb5065afc
+    sha256: 33eb5d5310a5c2c0a4707a0afa644801c2e08c8f70c45e1f62f354116dfe0970
   category: main
   optional: false
 - name: libglvnd
