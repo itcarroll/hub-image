@@ -11,6 +11,9 @@ on:
       - ".binder/**"
       - ".github/workflows/build.yaml"  # rebuild if the build workflow changes
       - ".github/workflows/push.yaml"  # rebuild if this workflow changes
+  pull_request_review:
+    types:
+      - submitted
 
 permissions: {}  # prevent excessive permissions on workflow level
 
@@ -19,3 +22,8 @@ jobs:
     uses: ./.github/workflows/build.yaml
     permissions:
       packages: write  # needed to upload and publish cache to GitHub Packages
+
+
+      # 1. use GITHUB_TOKEN to push
+      # 1. use GitHub App token to comment or submit review
+      # 3. use issue_comment, pull_request_review on test, whatever creates a check
