@@ -14,6 +14,8 @@ jobs:
     environment:
       name: slash-ops
       deployment: false
+    permissions:
+      contents: write  # for git push
 
     steps:
       # Checkout the pull request branch
