@@ -50,6 +50,7 @@ jobs:
           --kind lock
           --kind explicit
           --file environment.yml
+          --file .binder/environment.yml
           --without-cuda
           --platform linux-64
 
