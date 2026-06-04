@@ -26,6 +26,10 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Confirm updated conda-linux-64.lock
+        run: |
+          echo "TODO: compare environment.yml hash with value in conda lock output."
+
       - name: Image metadata
         id: image
         uses: docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf  # v6
@@ -69,7 +73,7 @@ jobs:
 
       - name: Run repo2docker
         env:
-          PUSH_QUESTION: ${{ github.event_name == 'push' && '--push' || '--no-push' }}
+          PUSH_QUESTION: ${{ github.repository == 'CryoInTheCloud/hub-image' && github.event_name == 'push' && '--push' || '--no-push' }}
           STEPS_CACHE_OUTPUTS_TAGS: ${{ steps.cache.outputs.tags }}
           STEPS_IMAGE_OUTPUTS_TAGS: ${{ steps.image.outputs.tags }}
         run: >
